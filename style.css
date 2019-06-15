@@ -3,9 +3,10 @@ body{
 }
 
 .container {
-    margin: auto;    
+    margin-left: 2%; 
+    margin-right: 2%;   
     margin-top: 1px;
-    padding: 10px 50px 80px 50px;
+    padding: 10px 10px 90px 10px;
     width: 90%;
     height: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -39,35 +40,41 @@ nav {
 .section-and-aside {
     text-align: center;
     background-color: whitesmoke;
-    width: 45%;
+    width: 46%;
     padding: 10px;
     border: 1px solid black;
     margin-top: 1%;
     margin-right: 1%;
+    float: left;
    
 }
 
  
- 
+    
 
 aside {
     
     text-align: center;
     background-color: whitesmoke;
     width: 45%;
+    height: 150px;
     padding: 10px;
     border: 1px solid black;
     margin-top: 1%;
-    margin-left: 1%;
-    clear: left;    
-    float: right;    
+    margin-left: 3%;
+    float: right;
+       
 }
 
+.clearfix{
+    clear: both;
+
+}
 
 
 footer {
 
-    margin-top: 10  %;
+    margin-top: 50px;
     clear: both;
 
 }
