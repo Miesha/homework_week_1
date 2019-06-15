@@ -1,0 +1,103 @@
+body{
+    background-color: grey
+}
+
+.container {
+    margin: auto;    
+    margin-top: 1px;
+    padding: 10px 50px 80px 50px;
+    width: 90%;
+    height: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.em;
+   
+}
+
+.header-footer {
+    text-align: center;
+    background-color: whitesmoke;
+    height: 30px;
+    width: 100%;
+    padding: 3%;
+    border: 6% solid black;
+
+
+ 
+}
+
+nav {
+    text-align: center;
+    background-color: whitesmoke;
+    height: 30px;
+    width: 100%;
+    padding: 3%;
+    border: 1px solid black; 
+    margin-top: 10px;
+    
+}
+
+.section-and-aside {
+    text-align: center;
+    background-color: whitesmoke;
+    width: 45%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 1%;
+    margin-right: 1%;
+   
+}
+
+ 
+ 
+
+aside {
+    
+    text-align: center;
+    background-color: whitesmoke;
+    width: 45%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 1%;
+    margin-left: 1%;
+    clear: left;    
+    float: right;    
+}
+
+
+
+footer {
+
+    margin-top: 10  %;
+    clear: both;
+
+}
+
+article {
+    text-align: center;
+    background-color: grey;
+    height: 90px;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 2%;
+}
+
+.h1-and-p {
+    text-align: center;
+    background-color: whitesmoke;
+    height: 10px;
+    width: 90%;
+    padding: 7px;
+    border: 1px solid black;
+    margin: 5px auto;
+    /*
+    position: relative;*/   
+   
+}
+
+/*position: relative;
+  border: 1px solid blue;
+  width: 300px;
+  height: 100px;
+section {
+*/
